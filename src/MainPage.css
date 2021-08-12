@@ -1,7 +1,7 @@
 .mainpage {
     height: 100vh ;
     width: 100vh;
-    border-style: solid;
+    border-style: dashed;
     border-width: 1px;
     border-top-left-radius: 5%;
     border-top-right-radius: 2%;
