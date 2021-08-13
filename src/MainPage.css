@@ -1,5 +1,5 @@
 header {
-    height: 100vh ;
+    height: 150vh ;
     width: 100vh;
     border-style: solid;
     border-width: 1px;
@@ -15,6 +15,10 @@ header {
     color: black;
     border-style:solid;
 }
-#test {
-    width:100px;
+
+
+aside {
+    width:30%;
+    float:left;
+    padding-left: 20px;
 }

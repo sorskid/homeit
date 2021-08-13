@@ -5,6 +5,9 @@
     margin-left:50vh;
     text-align: center;
     padding: 20px;
+    position: relative;
+    top: 0px;
+
 }
 
 @keyframes rotation{

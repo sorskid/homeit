@@ -5,7 +5,9 @@ function MainPage() {
     return(
         <div className="mainpage">
             <header>
-                <div id="test">Daniel is the best</div>
+                <aside>
+                <div id="test"><small>&copy;Daniel is the best</small></div>
+                </aside>
                 <CompanyLogo />
             </header>
             
