@@ -1,16 +1,16 @@
 import './MainPage.css'
 import CompanyLogo from './CompanyLogo';
+import Test from './Func';
 
 function MainPage() {
+    const x = 100;
+    const name = "Daniel";
     return(
         <div className="mainpage">
             <header>
-                <aside>
-                <div id="test"><small>&copy;Daniel is the best</small></div>
-                </aside>
                 <CompanyLogo />
-            </header>
-            
+                <Test /> {x} <b>{name}</b>
+            </header>           
         </div>
     );
 }
