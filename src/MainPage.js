@@ -4,7 +4,11 @@ import CompanyLogo from './CompanyLogo';
 function MainPage() {
     return(
         <div className="mainpage">
-            <CompanyLogo />
+            <header>
+                <div id="test">Daniel is the best</div>
+                <CompanyLogo />
+            </header>
+            
         </div>
     );
 }

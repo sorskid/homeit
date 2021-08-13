@@ -1,7 +1,21 @@
 .companyLogo {
-    width: 42vh;
-    height: 80px;
+    width: 40vh;
     background-color: hotpink;
     border-style: hidden;
     margin-left:50vh;
+    text-align: center;
+    padding: 20px;
+}
+
+@keyframes rotation{
+    from{}
+    to{transform: rotateY(360deg);}
+}
+
+.companytext {
+    color: white;
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }

@@ -1,7 +1,11 @@
 import './CompanyLogo.css';
 function CompanyLogo() {
     return(
-        <div className="companyLogo">CompanyLogo</div>
+        <div className="companyLogo">
+            <div className="companytext">
+                Company Logo
+            </div>
+        </div>
     );
 }
 
