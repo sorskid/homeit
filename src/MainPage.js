@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import './MainPage.css'
 
 function MainPage() {
